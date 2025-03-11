@@ -1,0 +1,9 @@
+- on pourrait essayer d'évaluer davantage le modèle, ce qu'il nous permet et est-ce qu'on obtient des résultats qui sont convaincants ou non
+- est ce qu'on pourrait changer de base de données obtenir d'autres choses
+- est ce qu'on pourrait utiliser un modèle plus puissant
+- on pourrait aussi essayer de rendre ce projet encore un petit peu plus propre puisque pour l'instant on n'a pas fait de modification vraiment significative dans la structure du projet on a gardé celle de base
+- idem pour le readme qui est celui de base à la racine du projet (il faudrait probablement le retravailler pour avoir quelque chose qui convient mieux)
+- est ce qu'on a besoin d'une documentation ou pas
+- ce qu'on pourrait faire dans la transformation de ce projet c'est réorganiser le dossier notebooks, car pour l'instant on a uniquement du code qui est à l'intérieur du notebook 1.0-np-RagClimate.ipynb mais on pourrait rendre la chose un petit peu plus modulable, par exemple sortir la démo gradio du notebook et la mettre dans un fichier python un script python
+classique, qu'on pourrait lancer ensuite avec une commande dans notre projet ce qui pourrait peut-être simplifier la manière de venir lancer cette démo gradio
+- on pourrait rendre l'ensemble du projet encore plus propre et avoir quelque chose de plus facilement exploitable et surtout partageable avec d'autres utilisateurs
