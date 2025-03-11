@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "rag_project_climate"
+version = "0.0.1"
+description = "Avoir \u00e0 disposition un LLM capable de r\u00e9pondre \u00e0 nos questions sur une BDD sp\u00e9cifique"
+authors = [
+  { name = "nathalie-pizon" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.10"
+
+
+[tool.ruff]
+line-length = 99
+src = ["rag_project_climate"]
+include = ["pyproject.toml", "rag_project_climate/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["rag_project_climate"]
+force-sort-within-sections = true
+
