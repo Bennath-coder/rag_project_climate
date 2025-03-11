@@ -1,0 +1,4 @@
+Datasets : cardiffnlp/tweet_eval
+tasks : text classification
+modalities : text
+models : openai-community/GPT-2
